@@ -18,6 +18,13 @@ AlgoHints is an interactive platform designed to help developers master Data Str
   
 - **Responsive Design**: Works on desktop and mobile devices
 
+  
+  ![image](https://github.com/user-attachments/assets/9b6a4b68-9d1b-4087-9aeb-76908f932378)
+  ![image](https://github.com/user-attachments/assets/2b4f81c0-1ca6-4ad1-8a6f-34e7bd259ffa)
+  ![image](https://github.com/user-attachments/assets/83c099f6-f2c9-4596-9950-8cb9f8054650)
+
+
+
 ## 📁 Project Structure
 
 ```
@@ -123,9 +130,7 @@ AlgoHints aims to bridge the gap between struggling alone and being given direct
 3. Practice implementing solutions independently
 4. Build confidence through guided discovery
 
-## 📝 License
 
-[MIT](LICENSE)
 
 ## 🙏 Acknowledgements
 
