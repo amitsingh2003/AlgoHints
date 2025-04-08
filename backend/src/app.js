@@ -11,7 +11,7 @@ const app = express();
 app.use(helmet());
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://algohints-1.onrender.com'],
+    origin: ['http://localhost:5173',],
     credentials: true,
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization']
