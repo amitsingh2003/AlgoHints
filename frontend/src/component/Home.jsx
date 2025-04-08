@@ -83,7 +83,7 @@ export default function AlgorithmHintSystem() {
   const handleSubmit = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:3000/ai/get-review", {
+      const response = await fetch("https://algohints.onrender.com/ai/get-review", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -163,7 +163,7 @@ export default function AlgorithmHintSystem() {
       formData.append("image", file);
 
       try {
-        const response = await fetch("http://localhost:3000/ai/ocr", {
+        const response = await fetch("https://algohints.onrender.com/ai/ocr", {
           method: "POST",
           body: formData,
         });
@@ -217,7 +217,7 @@ export default function AlgorithmHintSystem() {
           formData.append("image", file);
 
           try {
-            const response = await fetch("http://localhost:3000/ai/ocr", {
+            const response = await fetch("https://algohints.onrender.com/ai/ocr", {
               method: "POST",
               body: formData,
             });
